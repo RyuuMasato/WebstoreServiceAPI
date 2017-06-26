@@ -58,7 +58,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="UI\UserServiceWindow.xaml">
+    <Compile Include="ViewModel\UserLoginViewModel.cs" />
+    <Compile Include="ViewModel\UserRegisterViewModel.cs" />
+    <Page Include="UI\UserMainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -71,8 +73,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
-    <Compile Include="UI\UserServiceWindow.xaml.cs">
-      <DependentUpon>UserServiceWindow.xaml</DependentUpon>
+    <Compile Include="UI\UserMainWindow.xaml.cs">
+      <DependentUpon>UserMainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -130,8 +132,6 @@
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ViewModel\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

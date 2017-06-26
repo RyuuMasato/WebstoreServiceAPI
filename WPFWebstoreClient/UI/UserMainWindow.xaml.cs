@@ -12,16 +12,16 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using WebstoreClient.UserService;
+using ServiceClient.UserService;
 
 namespace WebstoreClient
 {
     /// <summary>
-    /// Interaction logic for UserServiceWindow.xaml
+    /// Interaction logic for UserMainWindow.xaml
     /// </summary>
-    public partial class UserServiceWindow : Window
+    public partial class UserMainWindow : Window
     {
-        public UserServiceWindow()
+        public UserMainWindow()
         {
             InitializeComponent();
         }
