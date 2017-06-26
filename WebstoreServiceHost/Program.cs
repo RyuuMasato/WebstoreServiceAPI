@@ -15,7 +15,7 @@ namespace WebstoreServiceHost
             using (ServiceHost userServiceHost = new ServiceHost(typeof(UserService)))
             {
                 userServiceHost.Open();
-                Console.WriteLine("UserService ready for use...");
+                Console.WriteLine("Service Library ready for use...\n");
                 Console.ReadKey();
             }
         }

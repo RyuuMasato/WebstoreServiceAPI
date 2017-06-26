@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{091C0DC5-7777-4FAB-8878-B27586B056C7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WebstoreClient</RootNamespace>
-    <AssemblyName>WPFWebstoreClient</AssemblyName>
+    <RootNamespace>ServiceClient</RootNamespace>
+    <AssemblyName>ServiceClient</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -58,7 +58,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="UserServiceWindow.xaml">
+    <Page Include="UI\UserServiceWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -71,7 +71,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
-    <Compile Include="UserServiceWindow.xaml.cs">
+    <Compile Include="UI\UserServiceWindow.xaml.cs">
       <DependentUpon>UserServiceWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
@@ -129,6 +129,9 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ViewModel\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

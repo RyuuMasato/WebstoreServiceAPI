@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebstoreClient.UserService {
+namespace ServiceClient.UserService {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -29,12 +29,12 @@ namespace WebstoreClient.UserService {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IUserServiceChannel : WebstoreClient.UserService.IUserService, System.ServiceModel.IClientChannel {
+    public interface IUserServiceChannel : ServiceClient.UserService.IUserService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class UserServiceClient : System.ServiceModel.ClientBase<WebstoreClient.UserService.IUserService>, WebstoreClient.UserService.IUserService {
+    public partial class UserServiceClient : System.ServiceModel.ClientBase<ServiceClient.UserService.IUserService>, ServiceClient.UserService.IUserService {
         
         public UserServiceClient() {
         }

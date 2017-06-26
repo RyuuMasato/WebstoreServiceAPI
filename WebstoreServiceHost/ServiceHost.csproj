@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{48C823C0-F337-4D40-855E-717234A03800}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>WebstoreServiceHost</RootNamespace>
-    <AssemblyName>WebstoreServiceHost</AssemblyName>
+    <RootNamespace>ServiceHost</RootNamespace>
+    <AssemblyName>ServiceHost</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -52,13 +52,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WebstoreServiceLibrary\WebstoreServiceLibrary.csproj">
+    <ProjectReference Include="..\WebstoreServiceLibrary\ServiceAPI.csproj">
       <Project>{a0553f0a-2856-44a4-9b1d-4a4897b722c8}</Project>
-      <Name>WebstoreServiceLibrary</Name>
+      <Name>ServiceAPI</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Logging\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

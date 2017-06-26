@@ -3,17 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebstoreServiceLibrary", "WebstoreServiceLibrary\WebstoreServiceLibrary.csproj", "{A0553F0A-2856-44A4-9B1D-4A4897B722C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceAPI", "WebstoreServiceLibrary\ServiceAPI.csproj", "{A0553F0A-2856-44A4-9B1D-4A4897B722C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebstoreClient", "WPFWebstoreClient\WebstoreClient.csproj", "{091C0DC5-7777-4FAB-8878-B27586B056C7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceClient", "WPFWebstoreClient\ServiceClient.csproj", "{091C0DC5-7777-4FAB-8878-B27586B056C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebstoreServiceHost", "WebstoreServiceHost\WebstoreServiceHost.csproj", "{48C823C0-F337-4D40-855E-717234A03800}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{913F874E-86EC-4900-9EB1-AF97AF6FF0AD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{DFD125A4-2F9A-4D22-83C2-41035D570967}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controller", "Controller\Controller.csproj", "{E09180CC-89C0-423B-BD91-DC8C0FF475C4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceHost", "WebstoreServiceHost\ServiceHost.csproj", "{48C823C0-F337-4D40-855E-717234A03800}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,18 +27,6 @@ Global
 		{48C823C0-F337-4D40-855E-717234A03800}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48C823C0-F337-4D40-855E-717234A03800}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48C823C0-F337-4D40-855E-717234A03800}.Release|Any CPU.Build.0 = Release|Any CPU
-		{913F874E-86EC-4900-9EB1-AF97AF6FF0AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{913F874E-86EC-4900-9EB1-AF97AF6FF0AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{913F874E-86EC-4900-9EB1-AF97AF6FF0AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{913F874E-86EC-4900-9EB1-AF97AF6FF0AD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DFD125A4-2F9A-4D22-83C2-41035D570967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DFD125A4-2F9A-4D22-83C2-41035D570967}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DFD125A4-2F9A-4D22-83C2-41035D570967}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DFD125A4-2F9A-4D22-83C2-41035D570967}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E09180CC-89C0-423B-BD91-DC8C0FF475C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E09180CC-89C0-423B-BD91-DC8C0FF475C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E09180CC-89C0-423B-BD91-DC8C0FF475C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E09180CC-89C0-423B-BD91-DC8C0FF475C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
