@@ -1,9 +1,11 @@
-﻿<Application x:Class="WPFWebstoreClient.App"
+﻿<Application x:Class="WebstoreClient.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:WPFWebstoreClient"
-             StartupUri="MainWindow.xaml">
+             xmlns:local="clr-namespace:WebstoreClient"
+             StartupUri="UserServiceWindow.xaml">
     <Application.Resources>
-         
+
+        <Style x:Key="RegisterLoginTextBox" TargetType="{x:Type TextBlock}"/>
+
     </Application.Resources>
 </Application>

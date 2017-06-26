@@ -12,12 +12,12 @@ namespace WebstoreServiceLibrary
     {
         public void RegisterNewUser(string username)
         {
-            Debug.WriteLine("Invoked RegisterNewUser(); Params: " + username);
+            Console.WriteLine("[ServiceLibrary] => Invoked RegisterNewUser(); Params: " + username);
         }
 
         public void LoginUser(string username, string password)
         {
-            Debug.WriteLine("Invoked LoginUser(); Params: " + username + ", " + password);
+            Console.WriteLine("[ServiceLibrary] => Invoked LoginUser(); Params: " + username + ", " + password);
         }
     }
 }

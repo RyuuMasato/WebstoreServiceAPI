@@ -1,0 +1,29 @@
+﻿<Window x:Class="WebstoreClient.UserServiceWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WebstoreClient"
+        mc:Ignorable="d"
+        Title="UserServiceWindow" Height="200" Width="400">
+    <Grid Margin="0">
+        <TabControl HorizontalAlignment="Left" Width="394" Margin="0,0,-0.4,0" Height="170" VerticalAlignment="Top">
+            <TabItem Header="Login" Margin="-2,1,2,-1" Width="80">
+                <Grid Background="#FFE5E5E5" Margin="-1,0,1,0">
+                    <Button Content="Login" HorizontalAlignment="Left" Margin="298,107,0,0" VerticalAlignment="Top" Width="80" Height="25"  Click="Login_User"/>
+                    <PasswordBox Name="LoginPasswordBox" HorizontalAlignment="Left" Margin="10,87,0,0" VerticalAlignment="Top" Width="176" Height="25"/>
+                    <TextBox Name="LoginUsernameBox" HorizontalAlignment="Left" Height="25" Margin="10,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176"/>
+                    <Label Content="Username" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="176"/>
+                    <Label Content="Password" HorizontalAlignment="Left" Margin="10,61,0,0" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Register" Margin="-1,1,1,-1" Width="80">
+                <Grid Background="#FFE5E5E5">
+                    <Button Content="Register" HorizontalAlignment="Left" Margin="298,106,0,0" VerticalAlignment="Top" Width="80" Height="25" Click="Register_New_User"/>
+                    <TextBox Name="RegisterNewUsernameBox" HorizontalAlignment="Left" Height="25" Margin="10,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176"/>
+                    <Label Content="New Username" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="176"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
