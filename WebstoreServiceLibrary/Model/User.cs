@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace ServiceAPI.Model
 {
-    class User
+    public class User : IUser
     {
+        public int UserID { get; set; }
+        public string Username { get; set; }
+        public string Password { get; set; }
     }
 }

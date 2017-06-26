@@ -6,7 +6,5 @@ using System.Threading.Tasks;
 
 namespace ServiceAPI.Model
 {
-    interface IUser
-    {
-    }
+    public interface IUser { }
 }
