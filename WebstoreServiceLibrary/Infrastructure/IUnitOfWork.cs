@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ServiceAPI.Infrastructure
 {
-    interface IUnitOfWork
+    public interface IUnitOfWork : IDisposable
     {
+        void SaveChanges();
     }
 }

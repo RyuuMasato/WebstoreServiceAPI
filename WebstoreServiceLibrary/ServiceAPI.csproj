@@ -55,9 +55,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controller\IUserController.cs" />
     <Compile Include="Controller\UserController.cs" />
-    <Compile Include="Infrastructure\Context\IUserContext.cs" />
     <Compile Include="Infrastructure\Context\UserContext.cs" />
     <Compile Include="Infrastructure\IUnitOfWork.cs" />
     <Compile Include="Infrastructure\Repository\IRepository.cs" />
