@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ServiceClient.ViewModel
+namespace ServiceAPI.Controller
 {
-    class UserRegisterViewModel
+    interface IUserController
     {
     }
 }

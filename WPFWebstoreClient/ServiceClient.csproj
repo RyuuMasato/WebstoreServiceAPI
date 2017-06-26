@@ -58,9 +58,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="ViewModel\UserLoginViewModel.cs" />
-    <Compile Include="ViewModel\UserRegisterViewModel.cs" />
-    <Page Include="UI\UserMainWindow.xaml">
+    <Compile Include="ViewModel\IUserMainWindow.cs" />
+    <Compile Include="ViewModel\UserMainWindow.cs" />
+    <Page Include="View\UserMainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -73,7 +73,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
-    <Compile Include="UI\UserMainWindow.xaml.cs">
+    <Compile Include="View\UserMainWindow.xaml.cs">
       <DependentUpon>UserMainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>

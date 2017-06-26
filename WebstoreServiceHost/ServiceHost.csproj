@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Logging\ILogger.cs" />
     <Compile Include="Logging\TrafficLogger.cs" />
     <Compile Include="Logging\UserLogger.cs" />
     <Compile Include="Program.cs" />
