@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WebstoreServiceLibrary\WebstoreServiceLibrary.csproj">
+      <Project>{a0553f0a-2856-44a4-9b1d-4a4897b722c8}</Project>
+      <Name>WebstoreServiceLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
