@@ -4,9 +4,9 @@ using System.Linq;
 using System.ServiceModel;
 using System.Text;
 using System.Threading.Tasks;
-using WebstoreServiceLibrary;
+using ServiceAPI.Service;
 
-namespace WebstoreServiceHost
+namespace WebServiceHost
 {
     class Program
     {

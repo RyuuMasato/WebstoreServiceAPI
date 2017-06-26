@@ -6,7 +6,7 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
 
-namespace WebstoreServiceLibrary
+namespace ServiceAPI.Service
 {
     public class UserService : IUserService
     {

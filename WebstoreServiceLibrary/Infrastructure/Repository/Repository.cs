@@ -1,18 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ServiceAPI.Infrastructure.Context;
 
 namespace ServiceAPI.Infrastructure.Repository
 {
     public class Repository<TEntity, TKey> where TEntity : class
     {
         private readonly DbContext _dbContext;
-        public BaseRepository(DbContext dbContext)
+        private UserContext dbContext;
+
+        public Repository(DbContext dbContext)
         {
             _dbContext = dbContext ?? throw new ArgumentNullException("dbContext");
         }
+
         protected DbContext DbContext
         {
             get { return _dbContext; }

@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{48C823C0-F337-4D40-855E-717234A03800}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ServiceHost</RootNamespace>
-    <AssemblyName>ServiceHost</AssemblyName>
+    <RootNamespace>WebServiceHost</RootNamespace>
+    <AssemblyName>WebServiceHost</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

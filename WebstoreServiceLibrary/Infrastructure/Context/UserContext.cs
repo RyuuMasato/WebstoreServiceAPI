@@ -1,12 +1,13 @@
-﻿using System;
+﻿using ServiceAPI.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.Entity;
 
-namespace ServiceAPI.Infrastructure.Context
-{
-    public class UserContext : DbContext
+namespace ServiceAPI.Infrastructure.Context { 
+    class UserContext : DbContext
     {
         public UserContext() : base() { }
 
